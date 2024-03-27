@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+:rot{
+	--white: #fff;
+	--light: #eeeded;
+	--brown:#FFA16C;
+	
+}
+body{
+	background-color: var(--brown);
+	font-family: system-ui;
+	overflow: hidden;
+}
+.container{
+	width: 1200px;
+	border: 1px solid var(--white);
+	max-width: 100%;
+	margin: 50px auto 0;
+	display: grid;
+	grid-template-columns: 200px auto 300px;
+	padding: 20px;
+	border-radius: 30px;
+	min-height: 80vh;
+}
+.container .menu{
+	background-color: var(--white);
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+.container .cart{
+	background-color: var(--white);
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.container .center{
+	
+}
