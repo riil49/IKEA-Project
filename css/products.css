@@ -1,30 +1,33 @@
-body{
-    background-color:#dbcbbe;
+body {
+    background-color: #dbcbbe;
     font-family: system-ui;
 }
 
 
 
 
-.container{
+.container {
     width: 1000px;
     margin: auto;
     transition: 0.5s;
 }
 
-header{
+header {
     display: grid;
     grid-template-columns: 1fr 50px;
     margin-top: 50px;
 }
-header .shopping{ 
+
+header .shopping {
     position: relative;
     text-align: right;
 }
-header .shopping img{
+
+header .shopping img {
     width: 40px;
-} 
-header .shopping span{
+}
+
+header .shopping span {
     background: red;
     border-radius: 50%;
     display: flex;
@@ -38,32 +41,30 @@ header .shopping span{
 }
 
 
- .back-btn {
- display: block;
- margin-top: 20px;
- width: 100px;
- height: 40px;
- border-radius: 20px;
- background-color: #333
- color: #fff;
- font-size: 18px;
- text-align: center
- line-height: 40px;
- text-decoration: none;
- background-image: url('Back.png');
- background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  text-indent: -9999px;
-  width: 50px;
-  height: 50px;
-  display: block;
+.back-btn {
+    display: block;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #333 color: #fff;
+    font-size: 18px;
+    text-align: center line-height: 40px;
+    text-decoration: none;
+    background-image: url('Back.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -9999px;
+    width: 50px;
+    height: 50px;
+    display: block;
 
- }
+}
 
 
 
- .containars-pages {
+.containars-pages {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;

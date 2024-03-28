@@ -1,52 +1,56 @@
-*{
-margin: 0;
-padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 
 }
 
-body{
-background-image:url('back.jpg'); background-repeat: repeat-x; background-size: 100%;
+body {
+  background-image: url('back.jpg');
+  background-repeat: repeat-x;
+  background-size: 100%;
 }
 
-.navbar{
-width: 85%;
-margin: auto;
-padding: 35px 0;
-display; flex;
-align-items: center;
-justify-content: space-between;
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  /* display; */
+  /* flex; */
+  align-items: center;
+  justify-content: space-between;
 }
 
-.navbar ul li{
-list-style: none;
-display: inline-block;
-margin: 0 20px;
-position: relative;
-right: 0;
-left: 60%;
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+  right: 0;
+  left: 60%;
 }
 
-.navbar ul li a{
-text-decoration: none;
-color: #fff;
-text-transform: uppercase;
-}
-.navbar ul li::after{
-content: "";
-height: 3px;
-width: 0;
-background: #895E33;
-position: absolute;
-left: 0;
-bottom: -10px;
-transition: 0.5s;
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
 }
 
-.navbar ul li:hover:after{
-width: 100%;
+.navbar ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #895E33;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
 }
 
-.h{
+.navbar ul li:hover:after {
+  width: 100%;
+}
+
+.h {
   width: 100%;
   color: #fff;
   size: 10;
@@ -64,7 +68,7 @@ width: 100%;
   margin-top: -6%;
 }
 
-.h5{
+.h5 {
   width: 100%;
   color: #fff;
   size: 10;
@@ -73,64 +77,65 @@ width: 100%;
 }
 
 
-h1{
+h1 {
   color: #895E33;
   font-family: aller;
   font-size: 50px;
   text-align: center;
-    font-family: inherit;
+  font-family: inherit;
 
 }
-h2{
-    color: #895E33;
-   font-family: aller;
+
+h2 {
+  color: #895E33;
+  font-family: aller;
   font-size: 35px;
   text-align: center;
-    font-family: inherit;
+  font-family: inherit;
   position: absolute;
   margin-left: 200px;
 
 }
 
-.p{
-    font-family: inherit;
+.p {
+  font-family: inherit;
   font-style: italic;
-fount-weight: 100;
-marker-mid: 200;
-font-size: 30;
-line-height: 35px;
-text-indent: 36px;
-color: #6b3e2e;
- text-align: left;
-  margin:40px 40px;
+  font-weight: 100;
+  marker-mid: 200;
+  font-size: 30;
+  line-height: 35px;
+  text-indent: 36px;
+  color: #6b3e2e;
+  text-align: left;
+  margin: 40px 40px;
   justify-content: space-between;
   text-justify: space-between;
-direction: rtl;
-position: absolute;
-top: 30%;
-bottom: 70%;
-left: 55%;
+  direction: rtl;
+  position: absolute;
+  top: 30%;
+  bottom: 70%;
+  left: 55%;
 }
 
 
 .p:after {
 
-content: "";
-display: block;
-clear: both;
+  content: "";
+  display: block;
+  clear: both;
 
-  }
+}
 
-button{
+button {
   width: 200px;
   height: 50px;
   position: absolute;
   text-align: center;
   margin: -30px 900px;
   border-radius: 30px;
-  fount-weight: bold;
-  border: 3px solid #895E33 ;
-  color:#bca89f;
+  font-weight: bold;
+  border: 3px solid #895E33;
+  color: #bca89f;
   background-color: #e5dac6;
   cursor: pointer;
   position: right;
@@ -140,7 +145,7 @@ button{
   top: 95%;
 }
 
-span{
+span {
   background: #895E33;
   height: 100%;
   width: 0;
@@ -151,38 +156,39 @@ span{
   z-index: -1;
   transition: 0.5s;
 }
-.v{
+
+.v {
   position: center;
   margin-left: 55px;
   bottom: 10%;
   top: 10%;
 }
 
-.j{
-    font-family: inherit;
+.j {
+  font-family: inherit;
   font-style: italic;
-fount-weight: 100;
-marker-mid: 200;
-font-size: 30;
-line-height: 36px;
-text-indent: 36px;
-color: #6b3e2e;
- text-align: left;
-  margin:45px 49px;
+  font-weight: 100;
+  marker-mid: 200;
+  font-size: 30;
+  line-height: 36px;
+  text-indent: 36px;
+  color: #6b3e2e;
+  text-align: left;
+  margin: 45px 49px;
   justify-content: space-between;
   text-justify: space-between;
-direction: rtl;
-position: absolute;
-top: 125%;
-right: 45%;
-left: 7%;
-bottom: 30%;
+  direction: rtl;
+  position: absolute;
+  top: 125%;
+  right: 45%;
+  left: 7%;
+  bottom: 30%;
 }
 
-.rot{
+.rot {
 
   width: 50%;
-  margin-left:1000px;
+  margin-left: 1000px;
   margin-top: -250px;
 
 }

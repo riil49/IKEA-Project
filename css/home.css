@@ -12,67 +12,68 @@ body {
 
 }
 
-.navbar{
-width: 85%;
-margin: auto;
-padding: 35px 0;
-display; flex;
-align-items: center;
-justify-content: space-between;
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    /* display; flex; */
+    align-items: center;
+    justify-content: space-between;
 }
 
-.navbar ul li{
-list-style: none;
-display: inline-block;
-margin: 0 20px;
-position: relative;
-right: 0;
-left: 60%;
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    right: 0;
+    left: 60%;
 }
 
-.navbar ul li a{
-text-decoration: none;
-color: #fff;
-text-transform: uppercase;
-}
-.navbar ul li::after{
-content: "";
-height: 3px;
-width: 0;
-background: #895E33;
-position: absolute;
-left: 0;
-bottom: -10px;
-transition: 0.5s;
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
 }
 
-.navbar ul li:hover:after{
-width: 100%;
+.navbar ul li::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #895E33;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
 }
 
-.h{
-  width: 100%;
-  color: #fff;
-  size: 10;
-  align-items: center;
-  margin-top: -1%;
-  margin-bottom: -5%;
+.navbar ul li:hover:after {
+    width: 100%;
+}
+
+.h {
+    width: 100%;
+    color: #fff;
+    size: 10;
+    align-items: center;
+    margin-top: -1%;
+    margin-bottom: -5%;
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 27%;
-  margin-top: -5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27%;
+    margin-top: -5%;
 }
 
-.h5{
-  width: 100%;
-  color: #fff;
-  size: 10;
-  align-items: center;
-  margin-top: -5%;
+.h5 {
+    width: 100%;
+    color: #fff;
+    size: 10;
+    align-items: center;
+    margin-top: -5%;
 }
 
 .wrapper {
@@ -108,7 +109,7 @@ width: 100%;
     width: 50%;
     font-weight: bold;
     background-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.07)),
-    url('back_ik.jpg');
+        url('back_ik.jpg');
     width: 100%;
     height: 400px;
     background-size: cover;
@@ -117,19 +118,19 @@ width: 100%;
 }
 
 .title {
-  position: absolute;
-  top: 460px;
-  margin-left: 800px;
-  font-family: serif;
-  color: #986b4b;
+    position: absolute;
+    top: 460px;
+    margin-left: 800px;
+    font-family: serif;
+    color: #986b4b;
 }
 
 .titlee {
-  position: absolute;
-  top: 40px;
-  margin-left: 85px;
-  font-family: serif;
-  color: #d7c0af;
+    position: absolute;
+    top: 40px;
+    margin-left: 85px;
+    font-family: serif;
+    color: #d7c0af;
 }
 
 .wrapper .content .par {

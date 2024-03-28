@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>ZOOM</title>
+    <title>ZOOM</title>
 </head>
+
 <body bgcolor="#dbcbbe">
 
-<link rel="stylesheet" href="Products.css">
-<a href="home.html" class="back-btn">Back</a>
+    <link rel="stylesheet" href="Products.css">
+    <a href="home.html" class="back-btn">Back</a>
 
-<marquee>
- <font color="#936748" size="30"> Creating a better life at home</font>
-</marquee>
+    <marquee>
+        <font color="#936748" size="30"> Creating a better life at home</font>
+    </marquee>
 
-<img src="zoo.png" name="slide" height=600 width=675 >
+    <img src="zoo.png" name="slide" height=600 width=675>
 
-<script>
- var i=600;
- var j=50;
- var k=0; 
-var zoomspeed=500;
+    <script>
+        var i = 600;
+        var j = 50;
+        var k = 0;
+        var zoomspeed = 500;
 
- function zooming() {
- if(i==600) {
- k=0;
-}
-if(i==0) {
- k=1; 
-}
-if(k==0) {
-document.images.slide.width=i;
-document.images.slide.height=i;
-i=i-j;
-} else {
-document.images.slide.width=i;
-document.images.slide.height=i;
-i=i+j;
-}
- setTimeout(zooming, zoomspeed);
- }
- zooming();
-</script>
+        function zooming() {
+            if (i == 600) {
+                k = 0;
+            }
+            if (i == 0) {
+                k = 1;
+            }
+            if (k == 0) {
+                document.images.slide.width = i;
+                document.images.slide.height = i;
+                i = i - j;
+            } else {
+                document.images.slide.width = i;
+                document.images.slide.height = i;
+                i = i + j;
+            }
+            setTimeout(zooming, zoomspeed);
+        }
+        zooming();
+    </script>
 
 </body>
+
 </html>
